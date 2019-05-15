@@ -9,6 +9,8 @@
         <module name="windmill2" />
         <module name="eureka-client" />
         <module name="eureka-server" />
+        <module name="service-lucy" />
+        <module name="service-turbine" />
       </profile>
     </annotationProcessing>
   </component>
@@ -16,6 +18,8 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="eureka-client" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
+      <module name="service-lucy" options="-parameters" />
+      <module name="service-turbine" options="-parameters" />
       <module name="windmill" options="-parameters" />
     </option>
   </component>
